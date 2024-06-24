@@ -1,1 +1,2 @@
-# OLHA-O-BOI-PHP
+Comércio de bovinos web
+Projeto da Faculdade
