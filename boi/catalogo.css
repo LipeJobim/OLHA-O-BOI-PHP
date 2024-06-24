@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.d-flex a {
+    padding: 10px;
+    text-decoration: none;
+    background-color:  limegreen;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  limegreen;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.produto {
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.produto a {
+    display: block;
+    background-color: limegreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%; 
+    box-sizing: border-box;
+}
+
+.produto a:hover {
+    background-color: yellowgreen;
+}
+
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px;
+    width: 80%; 
+    background-color:  limegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: yellowgreen;
+}
